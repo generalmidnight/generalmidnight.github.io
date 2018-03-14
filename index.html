@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Max G</title>
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  </head>
+
+  <body class="container-fluid">
+    <div class="popup-wrapper">
+      <div class="popup">
+        <img src="img/popup-close-button.png" class="popup-close-button" alt="Кнопка для закриття форми">
+        <h3 class="text-center">Замовити Проект</h3>
+        <form method="POST" action="https://formspree.io/rumbumbes@gmail.com">
+          <input type="text" id="name" placeholder="Ім'я">
+          <input type="tel" id="phone-number" placeholder="Телефон">
+          <input type="text" id="task-to-do" placeholder="Що потрібно зробити?">
+          <p id="message-box" class="text-center"></p>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </div>
+    </div>
+    <header>
+      <h1 class="text-center">Hello!</h1>
+      <h2 class="text-center my-name">I'm Max Gorvat</h2>
+      <h4 class="text-center me-front-ender">and I am Front-end Developer</h4>
+      <button class="popup-opener">Personal Project</button>
+    </header>
+    <main>
+      <div class="about-me row">
+        <div class="col-1 col-lg-2"></div>
+        <article class="about-me-article col-11 col-lg-4 wow slideInLeft" data-wow-duration="2s" data-wow-offset="100">
+          <h3 class="about-me-header"><span class="about-me-yellow-stick">|</span>Про Мене</h3>
+          <div class="wow slideInLeft" data-wow-duration="1s" data-wow-offset="100">
+            <h6>IT освіта:</h6>
+            <ul>
+              <li>SkillUp (Web Development Courses)</li>
+              <li>Logos IT Academy (Web Development Courses)</li>
+            </ul>
+          </div>
+          <div class="wow slideInLeft" data-wow-duration="1.25s" data-wow-offset="100">
+            <h6>Навички:</h6>
+            <div class="skills">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+              </ul>
+              <ul>
+                <li>
+                  <progress max="100" value="90"></progress>
+                </li>
+                <li>
+                  <progress max="100" value="80"></progress>
+                </li>
+                <li>
+                  <progress max="100" value="40"></progress>
+                </li>
+                <li>
+                  <progress max="100" value="60"></progress>
+                </li>
+                <li>
+                  <progress max="100" value="90"></progress>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="wow slideInLeft" data-wow-duration="1.5s" data-wow-offset="100">
+            <h6>Додаткова інформація:</h6>
+            <ul>
+              <li><b>Знання мов: </b>English - intermediate, русский - совершенно, polski - doskonale, українська - рідна.
+              </li>
+              <li><b>Сімейний стан: </b>неодружений
+              </li>
+              <li><b>Хоббі: </b>комп'ютерні ігри, VR, автомобілі, music: hard metal, shock rock</li>
+            </ul>
+          </div>
+        </article>
+        <div class="personal-photo col-12 col-lg-6">
+          <img src="img/personal-photo.jpg" alt="Фото Горвата Максима">
+        </div>
+      </div>
+      <section class="portfolio">
+        <h3 class="text-center"><span class="portfolio-yellow-stick">|</span>Портфоліо</h3>
+        <div id="carouselControlsLg" class="carousel-lg carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slide-wrapper">
+                <a href="https://rumbumbes.github.io" target="_blank" class="slide-side"><img src="img/fe.png" alt=""></a>
+                <a href="https://raccoonhouse.github.io" target="_blank" class="slide-center"><img src="img/raccoon.png" alt=""></a>
+                <a href="https://gorvatmax.github.io" target="_blank" class="slide-side"><img src="img/slide-site.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="carouselControlsSm" class="carousel-sm carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slide-wrapper">
+                <a href="https://levpentsko.github.io/levrose/" target="_blank" class="slide-center"><img src="images/project-levrose.png" alt="Сайт про нерухомість"></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-wrapper">
+                <a href="https://levpentsko.github.io/lesson-04/" target="_blank" class="slide-center"><img src="images/project-nail-studio.png" alt="Сайт манікюрного салону"></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-wrapper">
+                <a href="https://levpentsko.github.io/kinsly-branding-studio/" target="_blank" class="slide-center"><img src="images/project-kinsly-branding-studio.png" alt="Сайт про розробку брендів"></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-wrapper">
+                <a href="https://levpentsko.github.io/tour/" target="_blank" class="slide-center"><img src="images/project-tour.png" alt="Сайт про туризм"></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-wrapper">
+                <a href="http://workshopfreya.com.ua" target="_blank" class="slide-center"><img src="images/project-workshop-freya.png" alt="Сайт манікюрного салону"></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-wrapper">
+                <a href="https://levpentsko.github.io/logos-simple-js-test/" target="_blank" class="slide-center"><img src="images/project-javascript-tasks.png" alt="Задачі на JavaScript"></a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselControlsSm" role="button" data-slide="prev">
+            <img src="images/left-arrow.png" alt="Стрілка вліво">
+          </a>
+          <a class="carousel-control-next" href="#carouselControlsSm" role="button" data-slide="next">
+            <img src="images/right-arrow.png" alt="Стрілка вправо">
+          </a>
+        </div>
+      </section>
+      <div class="portfolio-bottom-line"></div>
+    </main>
+    <footer>
+      <h5 class="text-center">Allways glad to advice</h5>
+      <h6 class="text-center">and give a good solution</h6>
+      <div class="row">
+        <a href="skype:SkypeUser" class="col-12 col-md-4 text-center">Skype: rumbumbes</a>
+        <a href="mailto:rumbumbes@gmail.com" class="col-12 col-md-4 text-center">E-mail: rumbumbes@gmail.com</a>
+        <a href="tel:+380931085958" class="col-12 col-md-4 text-center">Phone: 093-108-59-58</a>
+      </div>
+      <button class="popup-opener">Personal Project</button>
+    </footer>
+
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script>
+      /*global WOW*/
+      new WOW().init();
+    </script>
+  </body>
+
+</html>
+
